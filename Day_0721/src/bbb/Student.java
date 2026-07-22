@@ -1,4 +1,4 @@
-package aaa;
+package bbb;
 //학번(hak)-정수,이름(name)-문자열,성별(gender)/true/false,나이(age),
 //국어(kor)-정수,영어(eng),수학(mat)
 public class Student {
@@ -12,10 +12,11 @@ public class Student {
 	
 	public Student() {}
 	
-	public Student(int hak, String name, boolean gender, int kor,int eng, int mat) {
+	public Student(int hak, String name, boolean gender,int age, int kor,int eng, int mat) {
 		this.hak=hak;
 		this.name=name;
 		this.gender=gender;
+		this.age=age;
 		this.kor=kor;
 		this.eng=eng;
 		this.mat=mat;
@@ -76,7 +77,8 @@ public class Student {
 	public void setMat(int mat) {
 		this.mat = mat;
 	}
-		
+
+	
 	
 	//생성자 없음
 	
